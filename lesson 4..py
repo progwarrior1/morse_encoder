@@ -76,7 +76,6 @@ def main():
         current_word = get_word()
         current_encode = morse_encode(current_word)
         print(f'слово {time}{current_encode}')
-        print(current_word)
         user_input = input()
         if user_input == current_word:
             print('верно')
